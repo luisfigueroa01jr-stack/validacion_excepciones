@@ -1,4 +1,9 @@
 # Ejercicio 1: Validacion con excepciones
+
+## Instrucciones
+1. Validación con excepciones: programa que pida al usuario una edad y un correo electrónico, y lance/capture excepciones si la edad no es un número válido o el correo no tiene el formato correcto.
+
+## Solucion
 Pide una edad y un correo. Si el dato no es valido se lanza una excepcion propia, se captura en `main` y se vuelve a preguntar sin que el programa truene.
 
 **Archivos:** `Excepciones.h` (`EdadInvalidaError`, `CorreoInvalidoError`) · `Validador.h/.cpp` (`validarEdad`, `validarCorreo`) · `main.cpp` (ciclo de captura)
